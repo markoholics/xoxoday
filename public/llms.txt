@@ -1,0 +1,39 @@
+# Loyalife by Xoxoday
+
+> Loyalife by Xoxoday is an enterprise loyalty and incentives platform for customer, channel partner and influencer programs. Every rule is approved, every point is traceable.
+
+Facts as of 2026-10-03. Figures marked "to be confirmed" in CONFIRM.md need confirmation before they are quoted.
+
+## Who it serves
+Loyalty heads, marketers, finance and risk leads and partner managers at global enterprises. First priority market: the US.
+
+## Key facts
+- 65M+ members managed; $5B+ rewards distributed to date
+- 150+ countries with localized rewards; 30+ languages; 55+ currencies
+- Rewards marketplace of 10M+ options in 30+ categories
+- 99.99% platform uptime, SLA backed
+- Launch to first redemption in 8 to 12 weeks versus 9 to 12 months for an in house build
+- Program types: enterprise multi brand, channel, influencer, omnichannel, coalition
+- Multi-tenant: each program runs independently under one account
+- White label iOS and Android app; WhatsApp bot to check balance, browse and redeem
+- Deployment: on-prem, hybrid and cloud; VPC; Active-Active DR
+- Security: PCI-DSS, SOC 2 Type II, ISO 27001, dual-control, audit and ML fraud
+- Governance: maker checker approvals, audit trail, idempotent and replayable reward ledger, anomaly detection
+- APIs: REST-first; OAuth 2.0 to JWT for members, transactions and points
+
+## Main pages
+- [Home](/)
+- [Platform](/platform)
+- [Infrastructure and deployment](/platform/infrastructure)
+- [Loyalife AI and MCP](/platform/ai-mcp)
+- [Security, fraud and governance](/platform/security)
+- [APIs](/platform/apis)
+- [Solutions](/solutions)
+- [Resources](/resources)
+- [Case studies](/resources/case-studies)
+- [FAQ and guides](/resources/faq)
+- [Pricing](/pricing)
+- [Book a demo](/demo)
+
+## Notes
+This site is a prototype. Product visuals use sample data. Prices are not published.

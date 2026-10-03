@@ -1,0 +1,42 @@
+/*
+  PLACEHOLDER BRAND TOKENS. Swap values here and nowhere else.
+  Supplied by Xoxoday guidelines: Selective Yellow #FFB200, Candlelight #FFE01B, Cod Gray #0C0A09.
+  Brand blue #1D4ED8 is taken from the supplied logo SVG.
+  Placeholders kept from the brief: canvas, surface, success, warning, danger, muted text.
+  Values are RGB channels so Tailwind alpha utilities work.
+*/
+:root {
+  --ink: 12 10 9;            /* Cod Gray #0C0A09 */
+  --canvas: 250 248 245;     /* #FAF8F5 placeholder */
+  --surface: 255 255 255;    /* #FFFFFF placeholder */
+  --sunken: 244 241 236;
+  --brand: 29 78 216;        /* #1D4ED8 from logo */
+  --accent: 255 178 0;       /* Selective Yellow #FFB200 */
+  --accent-soft: 255 224 27; /* Candlelight #FFE01B */
+  --success: 12 122 74;      /* #12B76A darkened for text contrast */
+  --warning: 160 86 3;      /* #F79009 darkened for text contrast */
+  --danger: 217 45 32;       /* #F04438 darkened for text contrast */
+  --muted: 91 100 117;       /* #5B6475 placeholder */
+  --line: 12 10 9 / 0.12;
+  --shadow: 12 10 9;
+  --success-fill: 18 183 106;
+  --warning-fill: 247 144 9;
+  --danger-fill: 240 68 56;
+  color-scheme: light;
+}
+:root[data-theme='dark'] {
+  --ink: 245 242 238;
+  --canvas: 12 10 9;
+  --surface: 23 20 19;
+  --sunken: 31 27 25;
+  --brand: 143 168 255;
+  --accent: 255 178 0;
+  --accent-soft: 255 224 27;
+  --success: 52 211 153;
+  --warning: 251 191 36;
+  --danger: 255 140 130;
+  --muted: 168 162 158;
+  --line: 245 242 238 / 0.14;
+  --shadow: 0 0 0;
+  color-scheme: dark;
+}
