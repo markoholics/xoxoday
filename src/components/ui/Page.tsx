@@ -38,13 +38,13 @@ export function MidCta({ ctaKey, title = 'Ready to see it with your numbers?' }:
   );
 }
 
-export function ClosingCta({ title = 'See Loyalife run your program.', ctaKey }: { title?: string; ctaKey?: CtaKey }) {
+export function ClosingCta({ title = 'See Loyalife run your program.', ctaKey, note = true }: { title?: string; ctaKey?: CtaKey; note?: boolean }) {
   return (
     <section className="py-20 sm:py-28" data-section="closing">
       <div className="container-x">
         <Reveal className="mx-auto max-w-2xl text-center">
           <h2 className="h2">{title}</h2>
-          <CtaPair ctaKey={ctaKey} variant="closing" align="center" className="mt-8" />
+          <CtaPair ctaKey={ctaKey} variant="closing" align="center" className="mt-8" note={note} />
         </Reveal>
       </div>
     </section>

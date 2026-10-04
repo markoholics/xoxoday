@@ -13,6 +13,9 @@ export function ProofBand() {
   const list = CUSTOMERS.filter((c) => f === 'all' || c.tag === f);
   return (
     <Section id="proof" section="proof" tour="proof" tone="sunken">
+      <Reveal className="mb-10 max-w-2xl">
+        <h2 className="h2">Our impact speaks for itself</h2>
+      </Reveal>
       <RevealGroup className="grid grid-cols-2 gap-6 lg:grid-cols-4">
         {STATS.map((s) => (
           <RevealItem key={s.id}>

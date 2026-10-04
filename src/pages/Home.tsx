@@ -8,7 +8,7 @@ import { GovernedQueue } from '@/components/home/GovernedQueue';
 import { AiTeaser } from '@/components/home/AiTeaser';
 import { RewardsNetwork } from '@/components/home/RewardsNetwork';
 import { StoryCards } from '@/components/home/StoryCards';
-import { ClosingCta, MidCta, PageFaq, PageFoot } from '@/components/ui/Page';
+import { ClosingCta, MidCta, PageFaq } from '@/components/ui/Page';
 
 export default function Home() {
   return (
@@ -35,8 +35,7 @@ export default function Home() {
       <RewardsNetwork />
       <StoryCards />
       <PageFaq title="Questions buyers ask" />
-      <ClosingCta />
-      <PageFoot />
+      <ClosingCta note={false} />
     </>
   );
 }
