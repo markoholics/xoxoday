@@ -11,7 +11,6 @@ import { REGIONS } from '@/lib/region';
 import { t } from '@/lib/motion';
 import { Button } from '@/components/ui/Button';
 import { Flag } from '@/lib/review';
-import { LastUpdated } from '@/components/ui/Section';
 
 const PROGRAM_TYPES = ['Customer', 'Channel partner', 'Influencer', 'Not sure'] as const;
 const emailSchema = z.object({ email: z.string().min(1, 'Enter your work email.').email('Enter a valid email, like name@company.com.') });
@@ -78,7 +77,6 @@ export default function DemoPage() {
               <span aria-hidden className="h-2 w-2 rounded-full bg-success" />Priority slot reserved<Flag id="prioritySlot" />
             </p>
           )}
-          <div className="mt-8"><LastUpdated /></div>
         </div>
 
         <div className="rounded-xl2 border bg-surface p-6 sm:p-8">

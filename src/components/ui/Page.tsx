@@ -3,7 +3,7 @@ import { FAQ } from '@/content/faq';
 import { setJsonLd } from '@/lib/seo';
 import { CtaPair } from './CtaPair';
 import { Accordion } from './Accordion';
-import { LastUpdated, Section, SectionHead } from './Section';
+import { Section, SectionHead } from './Section';
 import { Reveal } from './Reveal';
 import type { CtaKey } from '@/content/cta';
 
@@ -38,7 +38,7 @@ export function MidCta({ ctaKey, title = 'Ready to see it with your numbers?' }:
   );
 }
 
-export function ClosingCta({ title = 'See Loyalife run your program.', ctaKey, note = true }: { title?: string; ctaKey?: CtaKey; note?: boolean }) {
+export function ClosingCta({ title = 'See Loyalife run your program.', ctaKey, note = false }: { title?: string; ctaKey?: CtaKey; note?: boolean }) {
   return (
     <section className="py-20 sm:py-28" data-section="closing">
       <div className="container-x">
@@ -73,10 +73,7 @@ export function PageFaq({ ids, title = 'Questions', id = 'faq', idPrefix = 'faq'
   );
 }
 
+/** Previously showed a "Last updated" date. Removed by request; kept as a no-op so pages need no edits. */
 export function PageFoot() {
-  return (
-    <div className="container-x pb-10">
-      <LastUpdated />
-    </div>
-  );
+  return null;
 }
