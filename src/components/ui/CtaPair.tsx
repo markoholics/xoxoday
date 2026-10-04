@@ -23,7 +23,7 @@ export function useGhostAction(key?: CtaKey) {
 
 /** Ghost button to explore yourself beside a solid button to talk to us. One line of reassurance underneath. */
 export function CtaPair({
-  variant = 'hero', ctaKey, size = 'lg', note = true, className = '', ghostLabel, align = 'start', onGhost,
+  variant = 'hero', ctaKey, size = 'lg', note = false, className = '', ghostLabel, align = 'start', onGhost,
 }: { variant?: CtaVariant; ctaKey?: CtaKey; size?: 'sm' | 'md' | 'lg'; note?: boolean; className?: string; ghostLabel?: string; align?: 'start' | 'center'; onGhost?: () => void }) {
   const { pathname } = useLocation();
   const k = ctaKey ?? pathToCtaKey(pathname);
